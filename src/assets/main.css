@@ -1,0 +1,22 @@
+@import './base.css';
+#app{
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-custom {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    height: auto;
+}
+.item-custom {
+    display: inline-block;
+    scroll-snap-align: start;
+}
+.item-icon{
+    width: 50px;
+    height: 50px;
+    font-size: 20pt;
+}
